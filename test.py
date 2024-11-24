@@ -27,3 +27,6 @@ def test_should_return_89point6_from_32():
 
 def test_should_return_0_from_32():
     assert convertToCel(32) == 0
+
+def test_should_return_even_from_2():
+    assert even(2) is True
