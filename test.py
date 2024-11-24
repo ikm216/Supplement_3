@@ -12,3 +12,6 @@ def convertToFah(cel):
 
 def test_should_return_89point6_from_32():
     assert convertToFah(32) == 89.6
+
+def test_should_return_0_from_32():
+    assert convertToCel(32) == 0
