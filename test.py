@@ -23,6 +23,15 @@ def convertToCel(fah):
      return (fah - 32) * 5/9
 
 def even(num):
+    """
+    Checks if a number is even
+
+    Args:
+        num: The number that being check if it is even
+
+    Returns:
+        A boolean that shows true if even, false if its odd
+    """
     return num % 2 == 0
 
 def test_should_return_89point6_from_32():
